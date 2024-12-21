@@ -5,7 +5,7 @@
 
 import os
 import asyncio
-from pyrogram import Client, filters, __version__
+from pyrogram import Client, filters, version
 from pyrogram.enums import ParseMode, ChatMemberStatus
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated, UserNotParticipant
@@ -93,8 +93,7 @@ async def start_command(client: Client, message: Message):
         
         return
     else:
-        reply_markup = InlineKeyboardMarkup(
-            [
+        reply_markup = InlineKeyboardMarkup([
                 [
                     InlineKeyboardButton("😊 About Me", callback_data = "about"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
@@ -102,7 +101,7 @@ async def start_command(client: Client, message: Message):
             ]
                 )
         
-       if START_PIC:
+        if START_PIC:
             await message.reply_photo(
                 photo=START_PIC,
                 caption=START_MSG.format(
@@ -197,8 +196,7 @@ async def send_text(client: Bot, message: Message):
                 successful += 1
             except FloodWait as e:
                 await asyncio.sleep(e.x)
-                await broadcast_msg.copy(chat_id)
-                successful += 1
+                await broadcast_msg.copy(chat_id)successful += 1
             except UserIsBlocked:
                 await del_user(chat_id)
                 blocked += 1
