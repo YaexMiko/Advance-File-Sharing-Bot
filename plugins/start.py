@@ -5,13 +5,13 @@
 
 import os
 import asyncio
-from pyrogram import Client, filters, version
+from pyrogram import Client, filters, __version__
 from pyrogram.enums import ParseMode, ChatMemberStatus
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated, UserNotParticipant
 
 from bot import Bot
-from config import ADMINS, OWNER_ID, FORCE_MSG, START_MSG, START_PIC, CUSTOM_CAPTION, DISABLE_CHANNEL_BUTTON, PROTECT_CONTENT
+from config import ADMINS, OWNER_ID, FORCE_MSG, START_MSG, CUSTOM_CAPTION, DISABLE_CHANNEL_BUTTON, PROTECT_CONTENT, START_PIC
 from helper_func import subscribed1, subscribed2, encode, decode, get_messages
 from database.database import add_user, del_user, full_userbase, present_user
 async def delete_after_delay(message: Message, delay):
@@ -93,14 +93,14 @@ async def start_command(client: Client, message: Message):
         
         return
     else:
-        reply_markup = InlineKeyboardMarkup([
+        reply_markup = InlineKeyboardMarkup(
+            [
                 [
                     InlineKeyboardButton("😊 About Me", callback_data = "about"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
             ]
                 )
-        
         if START_PIC:
             await message.reply_photo(
                 photo=START_PIC,
@@ -196,7 +196,8 @@ async def send_text(client: Bot, message: Message):
                 successful += 1
             except FloodWait as e:
                 await asyncio.sleep(e.x)
-                await broadcast_msg.copy(chat_id)successful += 1
+                await broadcast_msg.copy(chat_id)
+                successful += 1
             except UserIsBlocked:
                 await del_user(chat_id)
                 blocked += 1
