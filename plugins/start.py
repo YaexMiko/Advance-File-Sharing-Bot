@@ -172,9 +172,9 @@ async def not_joined(client: Client, message: Message):
                 reply_markup=reply_markup,
             )
             return
-        else:
-     await message.reply(
-        text = FORCE_MSG.format(
+    else:
+           await message.reply(
+                text = FORCE_MSG.format(
                 first = message.from_user.first_name,
                 last = message.from_user.last_name,
                 username = None if not message.from_user.username else '@' + message.from_user.username,
@@ -184,7 +184,9 @@ async def not_joined(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(buttons),
         quote = True,
         disable_web_page_preview = True
-)
+  )
+        return
+
 @Bot.on_message(filters.command('users') & filters.private & filters.user(ADMINS))
 async def get_users(client: Bot, message: Message):
     msg = await client.send_message(chat_id=message.chat.id, text=WAIT_MSG)
