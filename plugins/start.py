@@ -191,7 +191,8 @@ async def send_text(client: Bot, message: Message):
                 successful += 1
             except FloodWait as e:
                 await asyncio.sleep(e.x)
-                await broadcast_msg.copy(chat_id)successful += 1
+                await broadcast_msg.copy(chat_id)
+                successful += 1
             except UserIsBlocked:
                 await del_user(chat_id)
                 blocked += 1
