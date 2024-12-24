@@ -20,12 +20,8 @@ async def useless(_, message: Message):
         # Inline keyboard buttons
         buttons = [
             [
-                InlineKeyboardButton("𝗧𝚎𝚊𝚖 𝗪𝚊𝚛𝚕𝚘𝚛𝚍𝚜", url="https://t.me/TeamWarlords"),
-                InlineKeyboardButton("𝗢𝚗𝚐𝚘𝚒𝚗𝚐 𝗔𝚛𝚜𝚎𝚗𝚊𝚕", url="https://t.me/+c-Sz_y9DvApiYzA1"),
-            ],
-            [
-                InlineKeyboardButton("𝗔𝚗𝚒𝚖𝚎 𝗦𝚌𝚑𝚎𝚍𝚞𝚕𝚎", url="https://t.me/+NS-ppXoAfEMyYmNl"),
-                InlineKeyboardButton("𝗙𝚒𝚗𝚒𝚜𝚑𝚎𝚍 𝗔𝚗𝚒𝚖𝚎", url="https://t.me/+lCm64n3MRBxjODY1"),
+                InlineKeyboardButton("ᴏɴɢᴏɪɴɢ ᴀʀsᴇɴᴀʟ", url="https://t.me/+c-Sz_y9DvApiYzA1"),
+                InlineKeyboardButton("ғɪɴɪsʜᴇᴅ ᴀɴɪᴍᴇ", url="https://t.me/+lCm64n3MRBxjODY1"),
             ],
         ]
         # Check if START_PIC is set
