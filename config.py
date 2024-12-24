@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7244234428:AAHp9RXkP3ZGItu5lcwxf4r_d_jVnnPaPoA")  
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7917935047:AAGWfcJB490qPHEMobY6gwtG9CdONhZj5Y8")  
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "20071888"))
@@ -20,28 +20,28 @@ APP_ID = int(os.environ.get("APP_ID", "20071888"))
 API_HASH = os.environ.get("API_HASH", "1c4cb9d94b23282abd9ae2a87a521b53")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002409382999"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002326266538"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7592125322"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8108281129"))
 
 #Port
-PORT = os.environ.get("PORT", "2849")
+PORT = os.environ.get("PORT", "2999")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ZeroTwo:aloksingh@zerotwo2.201lbx7.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Miko:aloksingh@miko.7c6wc.mongodb.net/?retryWrites=true&w=majority")
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DB_URI)
-DB_NAME = os.environ.get("DATABASE_NAME", "madflixbotz")
+DB_NAME = os.environ.get("DATABASE_NAME", "Miko")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002409382999"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002409382999"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #Pic
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/5ad737934a97db25cadb5.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/d5185992863e6bc806517.jpg")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/5a7094b992c50c7ecb1f7-7f41714fde1ac6b426.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/5a7094b992c50c7ecb1f7-7f41714fde1ac6b426.jpg")
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>𝙷𝚎𝚕𝚕𝚘 {first}\n\n𝙸 𝙲𝚊𝚗 𝚂𝚝𝚘𝚛𝚎 𝙿𝚛𝚒𝚟𝚊𝚝𝚎 𝙵𝚒𝚕𝚎𝚜 𝚒𝚗 𝚂𝚙𝚎𝚌𝚒𝚏𝚒𝚎𝚍 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝚊𝚗𝚍 𝚘𝚝𝚑𝚎𝚛 𝚞𝚜𝚎𝚛𝚜 𝚌𝚊𝚗 𝚊𝚌𝚌𝚎𝚜𝚜 𝙿𝚛𝚒𝚟𝚊𝚝𝚎 𝙵𝚒𝚕𝚎𝚜 𝙵𝚛𝚘𝚖 𝚊 𝚂𝚙𝚎𝚌𝚒𝚊𝚕 𝙻𝚒𝚗𝚔....!</b>.")
@@ -52,7 +52,7 @@ try:
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/de6a7340b530c2a71af37.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/5a7094b992c50c7ecb1f7-7f41714fde1ac6b426.jpg")
 
 
 #Force sub message 
@@ -68,7 +68,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌ 𝙿𝚕𝚎𝚊𝚜𝚎 𝙰𝚟𝚘𝚒𝚍 𝙳𝚒𝚛𝚎𝚌𝚝 𝙼𝚎𝚜𝚜𝚊𝚐𝚎𝚜.\n\n<b>➥Tᴇᴀᴍ Hᴇᴀᴠᴇɴ \n─────────────────────────────────\n➥𝙸𝚏 𝚈𝚘𝚞 𝙷𝚊𝚟𝚎 𝙰𝚗𝚢 𝙿𝚛𝚘𝚋𝚕𝚎𝚖 𝚁𝚎𝚕𝚊𝚝𝚎𝚍 𝚃𝚘 𝙲𝚘𝚗𝚝𝚎𝚗𝚝 𝚃𝚑𝚊𝚝 𝚆𝚊𝚜 𝚁𝚎𝚖𝚘𝚟𝚎𝚍 𝙸𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕/𝙱𝚘𝚝 𝙸𝚜 𝙽𝚘𝚝 𝚆𝚘𝚛𝚔𝚒𝚗𝚐 𝙿𝚛𝚘𝚙𝚎𝚛𝚕𝚢 𝚃𝚑𝚎𝚗 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝙷𝚎𝚛𝚎 𝙶𝚒𝚟𝚎𝚗 𝙱𝚎𝚕𝚘𝚠.\n➥𝙲𝚘𝚗𝚝𝚎𝚌𝚝 𝙾𝚠𝚗𝚎𝚛: @Heaven_Owner_Bot\n➥𝙲𝚘𝚗𝚝𝚎𝚌𝚝 𝙰𝚍𝚖𝚒𝚗: @Orignal_Owner_bot\n─────────────────────────────────</b>"
+USER_REPLY_TEXT = "<b>❌ 𝙿𝚕𝚎𝚊𝚜𝚎 𝙰𝚟𝚘𝚒𝚍 𝙳𝚒𝚛𝚎𝚌𝚝 𝙼𝚎𝚜𝚜𝚊𝚐𝚎𝚜. \n➥𝗧𝚎𝚊𝚖 𝗪𝚊𝚛𝚕𝚘𝚛𝚍𝚜</b>"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6446763201)
