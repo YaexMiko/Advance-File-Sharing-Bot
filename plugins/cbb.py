@@ -8,9 +8,9 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 @Bot.on_callback_query()
 async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
-    if data == "about":
+    if data == "ᴀʙᴏᴜᴛ ᴍᴇ":
         await query.message.edit_text(
-            text = f"<b>╔═════════════════⦿\n➥ ᴄʀᴇᴀᴛᴏʀ : <a href='tg://user?id={8108281129}'>『𝚈𝚊𝚎 𝙼𝚒𝚔𝚘』❋𝄗⃝🦋 ⌞𝚆𝚊𝚛𝚕𝚘𝚛𝚍𝚜⌝ ㊋ </a>\n╚═════════════════⦿</b>",disable_web_page_preview = True,
+            text = f"<b>╔═════════════════⦿═══════════\n➥ ᴄʀᴇᴀᴛᴏʀ :<a href='tg://user?id={8108281129}'>『𝚈𝚊𝚎 𝙼𝚒𝚔𝚘』❋𝄗⃝🦋 ⌞𝚆𝚊𝚛𝚕𝚘𝚛𝚍𝚜⌝ ㊋ </a>\n╚════════════════════════════⦿</b>",disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
