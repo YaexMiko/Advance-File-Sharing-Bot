@@ -68,7 +68,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "<b><bold>➥ ʜᴇʟʟᴏ ᴍʏ ᴅᴇᴀʀ sᴜʙsᴄʀɪʙᴇʀ ɪ ᴀᴍ ᴏɴʟʏ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ ᴛᴏ ʜᴇʟᴘ ᴏᴛʜᴇʀ ʙʏ ɢɪᴠɪɴɢ ʀᴇϙᴜᴇsᴛᴀʙʟᴇ ᴄᴏɴᴛᴇɴᴛ. \n\n➥ ᴄʜᴇᴄᴋ ᴏᴜᴛ ᴏᴜʀ ᴄʜᴀɴɴᴇʟꜱ ᴛʜᴀᴛ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ꜰᴏʀ ᴍᴏʀᴇ ᴀɴɪᴍᴇ ᴜᴘᴅᴀᴛᴇ.\n➥ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴀᴍ ᴡᴀʀʟᴏʀᴅs @TeamWarlords</bold></b>"
+USER_REPLY_TEXT = "<b><bold>➥ ʜᴇʟʟᴏ ᴍʏ ᴅᴇᴀʀ sᴜʙsᴄʀɪʙᴇʀ ɪ ᴀᴍ ᴏɴʟʏ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ ᴛᴏ ʜᴇʟᴘ ᴏᴛʜᴇʀ ʙʏ ɢɪᴠɪɴɢ ʀᴇϙᴜᴇsᴛᴀʙʟᴇ ᴄᴏɴᴛᴇɴᴛ. \n\n➥ ᴄʜᴇᴄᴋ ᴏᴜᴛ ᴏᴜʀ ᴄʜᴀɴɴᴇʟꜱ ᴛʜᴀᴛ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ꜰᴏʀ ᴍᴏʀᴇ ᴀɴɪᴍᴇ ᴜᴘᴅᴀᴛᴇ.\n➥ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴀᴍ ᴡᴀʀʟᴏʀᴅs</bold></b>"
 ADMINS.append(OWNER_ID)
 ADMINS.append(6446763201)
 
