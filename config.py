@@ -40,8 +40,8 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #Pic
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/555cdcdb1ca6bba1ee557-aa9fcea4ff9a2960ed.png")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/555cdcdb1ca6bba1ee557-aa9fcea4ff9a2960ed.png")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/e726b0275bf54a4836803-465c1b6a0aa2fce275.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e726b0275bf54a4836803-465c1b6a0aa2fce275.jpg")
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b><Bold>➥ ʜᴇʟʟᴏ {first}\n\n➥ ɪ ᴀᴍ ᴘʟᴇᴀsᴇᴅ ᴛᴏ ɪɴғᴏʀᴍ ʏᴏᴜ ᴛʜᴀᴛ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴄᴏɴᴛᴇɴᴛ ᴏғ ᴀɴɪᴍʀ ғɪʟᴇ ғʀᴏᴍ ʏᴏᴜʀ ғᴀᴠᴏᴜʀᴛᴇ ᴀɴɪᴍᴇ sᴇʀɪᴇs.\n➥ ʏᴏᴜ ʜᴀᴠᴇ ᴍᴀɴʏ ᴏᴘᴛɪᴏɴ ᴛᴏ sᴇʟᴇᴄᴛ ᴅɪғғᴇʀᴇɴᴛ ϙᴜᴀʟɪᴛʏ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜ [480ᴘ, 720ᴘ 1080ᴘ, ʜᴅʀɪᴘ].\n\n➥ ᴛᴇᴀᴍ ᴡᴀʀʟᴏʀᴅs</Bold></b>.")
