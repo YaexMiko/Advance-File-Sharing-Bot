@@ -89,8 +89,8 @@ async def start_command(client: Client, message: Message):
                 await msg.copy(chat_id=message.from_user.id, caption=caption, parse_mode=ParseMode.HTML, reply_markup=reply_markup, protect_content=PROTECT_CONTENT)
             except:
                 pass
-        await message.reply_text(f"<b>➥ 𝚃𝚑𝚒𝚜 𝙼𝚊𝚜𝚜𝚊𝚐𝚎 𝚆𝚒𝚕𝚕 𝙱𝚎 𝙳𝚎𝚕𝚎𝚝𝚎𝚍 𝙸𝚗 1 𝙷𝚘𝚞𝚛.\n➥𝗧𝚎𝚊𝚖 𝗪𝚊𝚛𝚕𝚘𝚛𝚍𝚜</b>")
-        
+        await message.reply_text(f"<b><bold>➥ 𝚃𝚑𝚒𝚜 𝙼𝚊𝚜𝚜𝚊𝚐𝚎 𝚆𝚒𝚕𝚕 𝙱𝚎 𝙳𝚎𝚕𝚎𝚝𝚎𝚍 𝙸𝚗 1 𝙷𝚘𝚞𝚛.</bold></b>")
+        await message.reply_text(f"<b><bold>➥ ᴛᴇᴀᴍ ᴡᴀʀʟᴏʀᴅs </bold></b>")
         return
     else:
         reply_markup = InlineKeyboardMarkup(
