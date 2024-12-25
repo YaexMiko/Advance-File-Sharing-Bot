@@ -20,6 +20,9 @@ async def useless(_, message: Message):
         # Inline keyboard buttons
         buttons = [
             [
+                InlineKeyboardButton("JAV Xoxoxo", url="https://t.me/+L-KE0ee0R0U2NDRl"),
+            ],
+            [
                 InlineKeyboardButton("ᴏɴɢᴏɪɴɢ ᴀʀsᴇɴᴀʟ", url="https://t.me/+c-Sz_y9DvApiYzA1"),
                 InlineKeyboardButton("ғɪɴɪsʜᴇᴅ ᴀɴɪᴍᴇ", url="https://t.me/+lCm64n3MRBxjODY1"),
             ],
