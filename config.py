@@ -52,7 +52,7 @@ try:
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/5a7094b992c50c7ecb1f7-7f41714fde1ac6b426.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e726b0275bf54a4836803-465c1b6a0aa2fce275.jpg")
 
 
 #Force sub message 
