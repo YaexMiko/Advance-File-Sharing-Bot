@@ -26,7 +26,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002326266538"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "8108281129"))
 
 #Port
-PORT = os.environ.get("PORT", "2999")
+PORT = os.environ.get("PORT", "2729")
 
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Miko:aloksingh@miko.7c6wc.mongodb.net/?retryWrites=true&w=majority")
@@ -40,8 +40,8 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #Pic
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/59db192f176f91ed67f80-ab411cf6b542bb32b5.png")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/59db192f176f91ed67f80-ab411cf6b542bb32b5.png")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/555cdcdb1ca6bba1ee557-aa9fcea4ff9a2960ed.png")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/555cdcdb1ca6bba1ee557-aa9fcea4ff9a2960ed.png")
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b><Bold>➥ ʜᴇʟʟᴏ {first}\n\n➥ ɪ ᴀᴍ ᴘʟᴇᴀsᴇᴅ ᴛᴏ ɪɴғᴏʀᴍ ʏᴏᴜ ᴛʜᴀᴛ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴄᴏɴᴛᴇɴᴛ ᴏғ ᴀɴɪᴍʀ ғɪʟᴇ ғʀᴏᴍ ʏᴏᴜʀ ғᴀᴠᴏᴜʀᴛᴇ ᴀɴɪᴍᴇ sᴇʀɪᴇs.\n➥ ʏᴏᴜ ʜᴀᴠᴇ ᴍᴀɴʏ ᴏᴘᴛɪᴏɴ ᴛᴏ sᴇʟᴇᴄᴛ ᴅɪғғᴇʀᴇɴᴛ ϙᴜᴀʟɪᴛʏ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜ [480ᴘ, 720ᴘ 1080ᴘ, ʜᴅʀɪᴘ].\n\n➥ ᴛᴇᴀᴍ ᴡᴀʀʟᴏʀᴅs</Bold></b>.")
