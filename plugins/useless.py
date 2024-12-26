@@ -24,7 +24,7 @@ async def useless(_, message: Message):
             ],
             [
                 InlineKeyboardButton("ᴏɴɢᴏɪɴɢ ᴀʀsᴇɴᴀʟ", url="https://t.me/+c-Sz_y9DvApiYzA1"),
-                InlineKeyboardButton("ғɪɴɪsʜᴇᴅ ᴀɴɪᴍᴇ", url="https://t.me/+lCm64n3MRBxjODY1"),
+                InlineKeyboardButton("ғɪɴɪsʜᴇᴅ ᴀɴɪᴍᴇ", url="https://t.me/+FpT9bYrGURA3NzFl"),
             ],
         ]
         # Check if START_PIC is set
