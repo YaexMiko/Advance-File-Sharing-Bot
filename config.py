@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7917935047:AAGWfcJB490qPHEMobY6gwtG9CdONhZj5Y8")  
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")  
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "20071888"))
@@ -35,7 +35,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Miko")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002396881406"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002432723306"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -70,7 +70,7 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "<b><bold>➥ ʜᴇʟʟᴏ ᴍʏ ᴅᴇᴀʀ sᴜʙsᴄʀɪʙᴇʀ ɪ ᴀᴍ ᴏɴʟʏ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ ᴛᴏ ʜᴇʟᴘ ᴏᴛʜᴇʀ ʙʏ ɢɪᴠɪɴɢ ʀᴇϙᴜᴇsᴛᴀʙʟᴇ ᴄᴏɴᴛᴇɴᴛ. \n\n➥ ᴄʜᴇᴄᴋ ᴏᴜᴛ ᴏᴜʀ ᴄʜᴀɴɴᴇʟꜱ ᴛʜᴀᴛ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ꜰᴏʀ ᴍᴏʀᴇ ᴀɴɪᴍᴇ ᴜᴘᴅᴀᴛᴇ.\n➥ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴀᴍ ᴡᴀʀʟᴏʀᴅs</bold></b>"
 ADMINS.append(OWNER_ID)
-ADMINS.append(6446763201)
+ADMINS.append(8108281129)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
