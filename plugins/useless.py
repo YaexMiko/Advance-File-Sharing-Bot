@@ -20,16 +20,13 @@ async def useless(_, message: Message):
         # Inline keyboard buttons
         buttons = [
             [
-                InlineKeyboardButton("ᴛᴇᴀᴍ ᴡᴀʀʟᴏʀᴅs", url="https://t.me/TeamWarlords"),
-            ],
-            [
-                InlineKeyboardButton("ᴏɴɢᴏɪɴɢ ᴀʀsᴇɴᴀʟ", url="https://t.me/+c-Sz_y9DvApiYzA1"),
+                InlineKeyboardButton("ᴏɴɢᴏɪɴɢ ᴀɴɪᴍᴇ ᴀʟᴘʜ", url="https://t.me/+bQKvn69l3k05NTZk"),
                 InlineKeyboardButton("ғɪɴɪsʜᴇᴅ ᴀɴɪᴍᴇ", url="https://t.me/+FpT9bYrGURA3NzFl"),
             ],
         ]
         # Check if START_PIC is set
         if START_PIC:
-            await message.reply_photo(
+            await/addtask https://nyaa.si/?page=rss&u=varyg1001/addtask https://nyaa.si/?page=rss&u=varyg1001 message.reply_photo(
                 photo=START_PIC,
                 caption=USER_REPLY_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
