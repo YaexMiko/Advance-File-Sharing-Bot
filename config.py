@@ -44,7 +44,7 @@ START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/acd2858d94d8d52
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/acd2858d94d8d526a358f-bdf1f70cb9217b807d.jpg")
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b><Bold>➥ ʜᴇʟʟᴏ {first}\n\n➥ ɪ ᴀᴍ ᴘʟᴇᴀsᴇᴅ ᴛᴏ ɪɴғᴏʀᴍ ʏᴏᴜ ᴛʜᴀᴛ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴄᴏɴᴛᴇɴᴛ ᴏғ ᴀɴɪᴍʀ ғɪʟᴇ ғʀᴏᴍ ʏᴏᴜʀ ғᴀᴠᴏᴜʀᴛᴇ ᴀɴɪᴍᴇ sᴇʀɪᴇs.\n➥ ʏᴏᴜ ʜᴀᴠᴇ ᴍᴀɴʏ ᴏᴘᴛɪᴏɴ ᴛᴏ sᴇʟᴇᴄᴛ ϙᴜᴀʟɪᴛʏ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜ [480ᴘ, 720ᴘ 1080ᴘ, ʜᴅʀɪᴘ].\n\n➥ ᴛᴇᴀᴍ ᴡᴀʀʟᴏʀᴅs</Bold></b>.")
+START_MSG = os.environ.get("START_MESSAGE", "<b><Bold>➥ ʜᴇʟʟᴏ {first}\n\n➥ ɪ ᴀᴍ ᴘʟᴇᴀsᴇᴅ ᴛᴏ ɪɴғᴏʀᴍ ʏᴏᴜ ᴛʜᴀᴛ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴄᴏɴᴛᴇɴᴛ ᴏғ ᴀɴɪᴍʀ ғɪʟᴇ ғʀᴏᴍ ʏᴏᴜʀ ғᴀᴠᴏᴜʀᴛᴇ ᴀɴɪᴍᴇ sᴇʀɪᴇs.\n➥ ʏᴏᴜ ʜᴀᴠᴇ ᴍᴀɴʏ ᴏᴘᴛɪᴏɴ ᴛᴏ sᴇʟᴇᴄᴛ ϙᴜᴀʟɪᴛʏ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜ [480ᴘ, 720ᴘ 1080ᴘ, ʜᴅʀɪᴘ].\n\n➥ ᴛᴇᴀᴍ ᴀʟᴘʜᴀ</Bold></b>.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -68,7 +68,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "<b><bold>➥ ʜᴇʟʟᴏ ᴍʏ ᴅᴇᴀʀ sᴜʙsᴄʀɪʙᴇʀ ɪ ᴀᴍ ᴏɴʟʏ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ ᴛᴏ ʜᴇʟᴘ ᴏᴛʜᴇʀ ʙʏ ɢɪᴠɪɴɢ ʀᴇϙᴜᴇsᴛᴀʙʟᴇ ᴄᴏɴᴛᴇɴᴛ. \n\n➥ ᴄʜᴇᴄᴋ ᴏᴜᴛ ᴏᴜʀ ᴄʜᴀɴɴᴇʟꜱ ᴛʜᴀᴛ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ꜰᴏʀ ᴍᴏʀᴇ ᴀɴɪᴍᴇ ᴜᴘᴅᴀᴛᴇ.\n➥ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴀᴍ ᴡᴀʀʟᴏʀᴅs</bold></b>"
+USER_REPLY_TEXT = "<b><bold>➥ ʜᴇʟʟᴏ ᴍʏ ᴅᴇᴀʀ sᴜʙsᴄʀɪʙᴇʀ ɪ ᴀᴍ ᴏɴʟʏ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ ᴛᴏ ʜᴇʟᴘ ᴏᴛʜᴇʀ ʙʏ ɢɪᴠɪɴɢ ʀᴇϙᴜᴇsᴛᴀʙʟᴇ ᴄᴏɴᴛᴇɴᴛ. \n\n➥ ᴄʜᴇᴄᴋ ᴏᴜᴛ ᴏᴜʀ ᴄʜᴀɴɴᴇʟꜱ ᴛʜᴀᴛ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ꜰᴏʀ ᴍᴏʀᴇ ᴀɴɪᴍᴇ ᴜᴘᴅᴀᴛᴇ.\n➥ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴀᴍ ᴀʟᴘʜᴀ</bold></b>"
 ADMINS.append(OWNER_ID)
 ADMINS.append(8108281129)
 
