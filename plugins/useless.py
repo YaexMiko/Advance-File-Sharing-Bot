@@ -26,7 +26,7 @@ async def useless(_, message: Message):
         ]
         # Check if START_PIC is set
         if START_PIC:
-            await/addtask https://nyaa.si/?page=rss&u=varyg1001/addtask https://nyaa.si/?page=rss&u=varyg1001 message.reply_photo(
+            await message.reply_photo(
                 photo=START_PIC,
                 caption=USER_REPLY_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
