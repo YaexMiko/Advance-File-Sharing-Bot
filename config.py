@@ -34,14 +34,14 @@ JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DB_URI)
 DB_NAME = os.environ.get("DATABASE_NAME", "Miko")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002396881406"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002312618185"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002432723306"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #Pic
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/e726b0275bf54a4836803-465c1b6a0aa2fce275.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e726b0275bf54a4836803-465c1b6a0aa2fce275.jpg")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/acd2858d94d8d526a358f-bdf1f70cb9217b807d.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/acd2858d94d8d526a358f-bdf1f70cb9217b807d.jpg")
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b><Bold>➥ ʜᴇʟʟᴏ {first}\n\n➥ ɪ ᴀᴍ ᴘʟᴇᴀsᴇᴅ ᴛᴏ ɪɴғᴏʀᴍ ʏᴏᴜ ᴛʜᴀᴛ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴄᴏɴᴛᴇɴᴛ ᴏғ ᴀɴɪᴍʀ ғɪʟᴇ ғʀᴏᴍ ʏᴏᴜʀ ғᴀᴠᴏᴜʀᴛᴇ ᴀɴɪᴍᴇ sᴇʀɪᴇs.\n➥ ʏᴏᴜ ʜᴀᴠᴇ ᴍᴀɴʏ ᴏᴘᴛɪᴏɴ ᴛᴏ sᴇʟᴇᴄᴛ ϙᴜᴀʟɪᴛʏ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜ [480ᴘ, 720ᴘ 1080ᴘ, ʜᴅʀɪᴘ].\n\n➥ ᴛᴇᴀᴍ ᴡᴀʀʟᴏʀᴅs</Bold></b>.")
@@ -52,7 +52,7 @@ try:
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e726b0275bf54a4836803-465c1b6a0aa2fce275.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/acd2858d94d8d526a358f-bdf1f70cb9217b807d.jpg")
 
 
 #Force sub message 
